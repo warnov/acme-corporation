@@ -2,6 +2,7 @@ baseURL: https://thankful-grass-0c6e2380f.1.azurestaticapps.net/
 languageCode: en-us
 title: WarAcme Site
 theme: Eclectic
+enableEmoji: true
 author:
   facebook: "https://facebook.com/warnov"
   twitter: "https://twitter.com/warnov"
@@ -54,11 +55,6 @@ params:
 
   recent_posts:
     enable: true
+
       
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    lineNos: true
-enableEmoji: true
+
